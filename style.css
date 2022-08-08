@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,32 @@
     font-weight: bold;
 }
 
-body{
+body {
     display: grid;
     place-items: center;
     height: 100vh;
 }
 
-.container{
+nav {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul li {
+    color: white;
+    margin: 10px 20px;
+}
+ 
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +40,7 @@ body{
     border-radius: 8px;
 }
 
-input{
+input {
     padding: 8px;
     border: none;
     background-color: #F65A83;
@@ -31,12 +50,12 @@ input{
     text-align: center;
 }
 
-input::placeholder{
+input::placeholder {
     color: #FF87B2;
     text-align: center;
 }
 
-button{
+button {
     padding: 8px;
     background-color: #FF87B2;
     color: #FFF8BC;
