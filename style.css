@@ -19,12 +19,17 @@ body{
     border: 1px solid grey;
     padding: 32px;
     border-radius: 8px;
+    background-color: #F9F5EB;
+}
+
+label{
+    color: #100720;
 }
 
 input{
     padding: 8px;
     border: none;
-    background-color: #F65A83;
+    background-color: #2B4865;
     color: white;
     border-radius: 4px;
     margin: 20px 0;
@@ -32,16 +37,16 @@ input{
 }
 
 input::placeholder{
-    color: #FF87B2;
+    color: #256D85;
     text-align: center;
 }
 
 button{
     padding: 8px;
-    background-color: #FF87B2;
-    color: #FFF8BC;
+    background-color: #002B5B;
+    color: #8FE3CF;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    border: 1px solid #FFE898;
+    border: 1px solid #8FE3CF;
 }
